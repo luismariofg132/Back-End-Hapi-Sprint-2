@@ -72,10 +72,8 @@ module.exports = {
             },
             options: {
                 payload: {
-                    // output: 'stream',
-                    // parse: true,
-                    // allow: 'multipart/form-data',
-                    multipart: true
+                    multipart: true,
+                    output: 'stream',
                 },
                 tags: ['api', 'Vehiculo'],
                 description: 'Crear un vehiculo',
